@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "dev": "bun --hot run src/server.ts",
-    "start": "bun run src/server.ts"
+    "start": "bun run src/server.ts",
+    "test": "bun test",
+    "test:watch": "bun test --watch"
   },
   "devDependencies": {
     "@types/bun": "latest",
@@ -26,6 +28,8 @@
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
     "express-ws": "^5.0.2",
+    "graphql": "^16.11.0",
+    "graphql-yoga": "^5.16.0",
     "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.18.3",
