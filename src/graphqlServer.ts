@@ -9,7 +9,7 @@ const yoga = createYoga({
         type Query {
             hello: String!
         }
-        type Subcription {
+        type Subscription {
             time: String!
         }
         `,
